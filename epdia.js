@@ -1,5 +1,42 @@
 /**
-* Demo: http://codepen.io/effus/pen/jWmOWX
+* === Demo === 
+* http://codepen.io/effus/pen/jWmOWX
+* 
+* 
+* === Required ===
+*   //cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+*   //cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js
+*   https://rawgit.com/kangax/fabric.js/master/dist/fabric.js
+* 
+* 
+* === HTML templates ===
+* 
+* Work area:
+* <div id="diagram">
+*  <canvas id="diagram-area" width="0" height="0" ></canvas>
+* </div>
+* 
+* Node template:
+* <script type="html/template" id="node">
+*  <div class="node draggable">
+*    <div class="title">NodeName</div>
+*    <div class="close">x</div>
+*    <div class="attrs">
+*      <ul></ul>
+*    </div>
+*  </div>
+*</script>
+*  
+* Node attribute template:
+*<script type="html/template" id="node-attr">
+*  <li>
+*    <div class="port-in"></div>
+*    <div class="port-out"></div>
+*    <span class="name">AttrName</span>
+*    <span class="type">type</span>
+*  </li>
+*</script>
+* 
 */
 
 var EPDia = {
