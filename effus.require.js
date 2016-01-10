@@ -26,7 +26,7 @@ Required file: "require.json"
 
 Including script in HTML:
 
-<script src="/assets/js/effus.require.js" data-project="diagram"></script>
+<script src="/assets/js/effus.require.js"></script>
 <script>
     requirejs({
         project:'MyProject',
