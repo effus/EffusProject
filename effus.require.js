@@ -4,6 +4,19 @@
  * Native JS. And you can load jQuery without conflicts :)
  * v.0.1, 2016, GPL
  
+Including in HTML:
+
+<script src="/assets/js/effus.require.js"></script>
+<script>
+    requirejs({
+        project:'MyProject',
+        configSrc:'/assets/js/require.json',
+        nocache:false
+    }, function(){
+        // ...callback when all scripts included...
+    });
+</script>
+
 Required file: "require.json"
  
 {
@@ -23,19 +36,6 @@ Required file: "require.json"
     ]
   }
 }
-
-Including script in HTML:
-
-<script src="/assets/js/effus.require.js"></script>
-<script>
-    requirejs({
-        project:'MyProject',
-        configSrc:'/assets/js/require.json',
-        nocache:false
-    }, function(){
-        // ...callback when all scripts included...
-    });
-</script>
 
 */
 var _requirejs = {
