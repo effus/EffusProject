@@ -74,7 +74,7 @@ var _requirejs = {
       document.head.appendChild(link);
     },
     iterationLoading: function(list, index, callback) {
-      console.log(list, index);
+      //console.log(list, index);
       _requirejs.Utils.appendScript(list[index], function() {
         if (list.length > (parseInt(index) + 1)) {
           _requirejs.Utils.iterationLoading(list, parseInt(index) + 1,
