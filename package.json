@@ -1,0 +1,19 @@
+{
+  "name": "js.frontend-tools",
+  "version": "1.0.0",
+  "description": "Some usefull JavaScrips",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/effus/frontend-tools.git"
+  },
+  "author": "effus",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/effus/frontend-tools/issues"
+  },
+  "homepage": "https://github.com/effus/frontend-tools#readme"
+}

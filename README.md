@@ -6,7 +6,7 @@ I think that requirejs.org is bullshit, so I create my own loader with blackjack
 
 Native JS. And you can load jQuery without conflicts :)
 
-**Including**
+**Example**
 ```
 <script src="effus.require.js"></script>
 <script>
@@ -39,5 +39,19 @@ Create file *require.json*
   }
 }
 ```
+
+## parallax.js
+Some figure you want to move with own speed while scrolling
+```
+<img class="scroll-handle" src="images/g4170.png" data-x="0" data-y="30" />
+<script src="js/parallax.js"></script>
+<script>
+// if you want to reinit effect points
+ScrollEffect.startY = 500;
+ScrollEffect.endY = 600;
+</script>
+```
+data-x="0" - means your figure doesn't move by horisontal
+data-y="30" - means your figure move by vertical with 30 pixels during effect is active
 
 <a href="https://github.com/effus/frontend-tools/"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License"></a>
