@@ -51,7 +51,9 @@ ScrollEffect.startY = 500;
 ScrollEffect.endY = 600;
 </script>
 ```
+
 data-x="0" - means your figure doesn't move by horisontal
+
 data-y="30" - means your figure move by vertical with 30 pixels during effect is active
 
 <a href="https://github.com/effus/frontend-tools/"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License"></a>
